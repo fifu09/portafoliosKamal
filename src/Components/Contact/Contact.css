@@ -1,0 +1,20 @@
+.Contact {
+    font-size: 28px;
+    margin: auto;
+    margin-top: 60px;
+    width: 80%;
+    text-align: justify;
+}
+.Contact-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.Contact-bold {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+}
+.Contact p {
+    margin-bottom: 20px;
+}

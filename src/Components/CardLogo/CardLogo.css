@@ -1,0 +1,74 @@
+.cardLogo {
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.9) 0px 3px 8px 0px;
+  @media(min-width: 1100px){
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+}
+.cardLogo-background{
+  background-size: cover;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 5px;
+  @media(min-width: 1100px){
+    background-image: url("/src/Components/CardLogo/clinica.jpg");
+    filter: blur(2px);
+    background-size: cover;
+  }
+}
+.WithouImg{
+  display: none;
+}
+.cardLogo-container-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/src/Components/CardLogo/clinica.jpg");
+  background-size: cover;
+  @media(min-width: 1100px){
+    background-image: url("");
+    width: 50%;
+  }
+}
+
+.cardLogo-container-img>img {
+  width: 250px;
+  height: 250px;
+  border-radius: 4%;
+  box-shadow: #333333df 1px 5px 6px 1px;
+}
+
+.cardLogo-container-text {
+  color: black;
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.936);
+  @media(min-width: 1100px){
+    width: 500px;
+    margin-right: 5%;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 18px;
+  }
+}

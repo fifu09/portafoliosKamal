@@ -1,0 +1,33 @@
+.navLinkMobile-clicked {
+    display: flex;
+    align-items: center;
+    background-color: #245596;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 99.4%;
+    padding: 50px;
+    z-index: 100;
+    margin-top: 60px;
+}
+
+.navLinkMobile-notClicked {
+    display: none;
+}
+
+.linkMobile-clicked {
+    display: block;
+    text-Decoration: none;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.linkMobile-notClicked {
+    display: none;
+}
+

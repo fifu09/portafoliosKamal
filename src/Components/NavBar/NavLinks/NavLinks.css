@@ -1,0 +1,48 @@
+.navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navLink a {    
+    display: flex;
+    text-decoration: none;
+    width: 150px;
+    justify-content: center;
+}
+
+.link {
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px 10px;
+}
+.link:hover {
+    box-shadow: #ffffffa5 0px 2px 0px 0px;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}
+.navLink span{
+    width: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 0px 10px;
+}
+.navLink span:hover{
+    box-shadow: #ffffff 0px 1px 4px 0px;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}
+.contactClicked span {
+    box-shadow: #ffffff 0px 1px 4px 0px;
+    transform: scale(1.05);
+}
+.link.link-clicked {
+    box-shadow: #ffffffa5 0px 2px 0px 0px;
+    transform: scale(1.05);
+}

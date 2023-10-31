@@ -1,0 +1,20 @@
+.navBarMobile { 
+    background-color: #245596;
+    width: 100%;
+    color: white;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    z-index: 50;
+    padding: 6px;
+    @media(min-width: 1100px){
+        display: none;
+    }
+}
+
+/*////////////////HAMBURGUER SECTIONS//////////////////////*/
+

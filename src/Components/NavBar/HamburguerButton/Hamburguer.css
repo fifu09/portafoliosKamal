@@ -1,0 +1,30 @@
+.navBarMobile-container-hamburguer{
+  position: absolute;
+  right: 10px;
+}
+.navBar-hamburguer-button{
+    display: flex;
+    align-items: center;
+    border-style: none;
+    background-color: transparent;
+    margin-right: 2px;
+  }
+  .navBar-hamburguer-notClicked{
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-weight: normal;
+  }
+  .navBar-hamburguer-clicked{
+    display: none;
+  }
+  .navBar-x-clicked{
+    display: inline-block;
+    
+    color: white;
+    font-size: 38px;
+    transition: 2s;
+  }
+  .navBar-x-notClicked{
+    display: none;
+  }

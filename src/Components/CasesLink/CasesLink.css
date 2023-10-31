@@ -1,0 +1,52 @@
+.cases {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  color: #245596;
+  height: 80px;
+  width: 100%;
+  transition: 0.3s ease;
+  margin: 5px 0px;
+}
+
+.cases:hover {
+  background-color: #2455961a;
+}
+
+.cases img {
+  transition: 0.3s ease;
+}
+
+.cases:hover img {
+  transition: 0.3s ease;
+  transform: scale(1.15)
+}
+
+.cases-container-icon {
+  display: flex;
+  margin-right: 2%;
+  background-color: white;
+}
+
+.cases-container-icon:hover {
+  background-color: white;
+}
+
+.cases-container-icon img {
+  width: 70px;
+  height: 70px;
+}
+.cases-container-links{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.cases-container-links span {
+  font-weight: bold;
+  font-size: 18px;
+}
+.cases-container-links p {
+  color: black;
+}
